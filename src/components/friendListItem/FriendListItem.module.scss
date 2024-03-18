@@ -1,0 +1,24 @@
+.item {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 16px 8px;
+    text-align: center;
+    width: 108px;
+  
+    .username {
+      font-size: 28px;
+    }
+  }
+  
+  img {
+    margin: 0 auto;
+  }
+  
+  .user-status {
+    font-weight: 500;
+    color: red;
+  }
+  
+  .is-online {
+    color: green;
+  }

@@ -1,0 +1,37 @@
+table {
+    table-layout: fixed;
+    width: 700px;
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 0 auto;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  thead th {
+    width: calc(100% / 3);
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+  }
+  
+  td {
+    text-align: center;
+    border: 1px solid black;
+    padding: 4px 0;
+  }
+  
+  tbody td:first-child {
+    padding-left: 84px;
+    text-align: left;
+    text-transform: capitalize;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f3f3f3;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: lightgray;
+  }

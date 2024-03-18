@@ -4,7 +4,7 @@ const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div className={css["profile-card-container"]}>
       <div className={css["user-card"]}>
-        <img src={image} alt="User avatar" width="250" />
+        <img className={css["user-image"]} src={image} alt="User avatar" width="250" />
         <p className={css["user-card-name"]}>{name}</p>
         <p>@{tag}</p>
         <p>{location}</p>
